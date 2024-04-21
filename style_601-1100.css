@@ -3,7 +3,7 @@
         height: 120vh;
     }
     .box-news {
-        width: 100%;
+        width: 80vw;
         height: 120vh;
         display: flex;
         justify-content: center;
@@ -18,11 +18,8 @@
         width: 35vw;
     }
 
-    .inner-box img {
-        width: 35vw;
-    }
-    .text-box {
-        width: 35vw;
+    .inner-box img, .text-box{
+        width: 100%;
     }
 
     .h2-news {
@@ -39,11 +36,8 @@
         font-size: 1.7rem;
     }
 
-    .p-text-box {
+    .p-text-box,.a-text-box {
         font-size: 0.8rem;
     }
 
-    .a-text-box {
-        font-size: 0.8rem;
-    }
 }
