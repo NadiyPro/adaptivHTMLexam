@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*---------------------Четвертая часть-------------------*/
+.news{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 152px 147px 140px 147px;
+}
+.box-news{
+    max-width: 80vw;;
+    height: 52vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+}
+.inner-box{
+    width: 25vw;
+    height: 52vh;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.20);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.inner-box img{
+    width: 25vw;
+    height: 29vh;
+    /*gap: 30px;*/
+}
+.inner-box:nth-child(1){
+    margin-right: 30px;
+}
+.inner-box:nth-child(2){
+    margin-right: 30px;
+}
+.text-box{
+    width: 25vw;
+    height: 23vh;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.h2-news{
+    font-family: "Josefin Sans", sans-serif;
+    color: #000;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+.p-news{
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 60px;
+}
+.h3-text-box{
+    font-family: "Josefin Sans", sans-serif;
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin: 30px 0 10px 30px;
+}
+.p-text-box{
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin: 0 30px 20px 30px;
+}
+.a-text-box{
+    text-decoration: none;
+    color: #FF4B32;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    margin: 0 30px 30px 30px;
+}
+.a-text-box:hover{
+    color: saddlebrown;
+}
+/*---------------------Четвертая часть-------------------*/
+
+
+
